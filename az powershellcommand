@@ -6,3 +6,15 @@ apt install apache2
 systemctl status apache2
 systemctl enable apache2
 curl localhost
+
+####add a webpage
+sudo -i
+cd /var/www/html
+apt install unzip
+wget https://www.free-css.com/assets/files/free-css-templates/download/page288/startup.zip
+ls
+unzip startup.zip
+ls
+
+####you can download website from this url
+https://www.free-css.com/free-css-templates/page288/startup
