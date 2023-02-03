@@ -1,6 +1,7 @@
 How to create a rg using powershell
 how to install apache2
 sudo -i
+apt get update
 apt install apache2
 systemctl status apache2
 systemctl enable apache2
