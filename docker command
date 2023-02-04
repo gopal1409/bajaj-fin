@@ -1,0 +1,7 @@
+docker container run -d -p 81:80 httpd
+docker ps
+docker images
+curl localhost:81
+docker container run -d -p 83:80
+curl localhost:83
+docker container run -d -p 82:80 nginx
