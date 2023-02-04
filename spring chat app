@@ -9,3 +9,19 @@ cd target
 ls
 java -jar websocket-demo-0.0.1-SNAPSHOT.jar
 ####after this open port 8080
+
+
+####how to convert the application into an jar file
+72  cd /root
+   73  cd springboot-chat-app/
+   74  nano dockerfile
+   ###inside docker file
+FROM openjdk
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} chatapp.jar
+ENTRYPOINT ["java","jar","chatapp.jar"]
+
+   ###to save process Ctrl X then Pres Y and Enter
+   75  docker build -t chatapp .
+   76  docker images
+
