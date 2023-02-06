@@ -1,20 +1,20 @@
-
+####all the communication in k8s happen using api. 
 apiVersion: v1
-
+###pod is like an kind or the type of api. 
 kind: Pod
 
 metadata:
-
+###kthe name of the pod after deployment
   name: nginx
 
-spec:
+spec: ###specification of the container
 
   containers:
 
-  - name: nginx
+  - name: nginx #inside my pod i am going to deploy a containe this is the name of the container
 
-    image: nginx:1.14.2
+    image: nginx:1.14.2 ##3image used for the container
 
-    ports:
+    ports: ###this is the container port
 
     - containerPort: 80
