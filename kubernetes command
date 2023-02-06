@@ -1,0 +1,3 @@
+152  kubectl get pod
+  153  kubectl delete pod nginx
+  154  kubectl get pod
