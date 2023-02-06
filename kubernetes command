@@ -1,3 +1,9 @@
 152  kubectl get pod
   153  kubectl delete pod nginx
   154  kubectl get pod
+##########dry run
+kubectl run pod dryimage --image=nginx --dry-run=client -o yaml
+#####save the dry run file
+kubectl run pod dryimage --image=nginx --dry-run=client -o yaml > dry.yml
+ls
+kubectl apply -f dry.yml
