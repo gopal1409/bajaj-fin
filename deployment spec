@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+####invoke deployment api and create a deployment with the nAME nginx-deployment
+#deployment required specification
+spec:
+  replicas: 3 #usaing replica it should create three pod
+  selector: #label is required all the three pod will have same label
+    matchLabels:
+      app: nginx
+  template: #inside your pod how the container image will be deployed
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
+        
+        ######
+        kubectl apply -f deploy.yml
+        #####
+        192  kubectl get deploy
+  193  kubectl get deploy nginx-deployment
+  kubectl get rs
+  kubectl get pod
