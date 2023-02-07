@@ -25,3 +25,7 @@
    31  git commit -m "added a new project calcy"
    32  git log
 
+###how to ingnore files in git
+ 52  touch .gitignore
+   53  nano .gitignore
+   54  git status
