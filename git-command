@@ -5,3 +5,15 @@
     7  touch secret
     8  git status
     9  ls
+    
+    ####git inittialized create an .git folder
+    13  git init
+   14  git status
+   15  ls
+   16  ls -la
+   17  cd .git
+   18  ls
+   19  cd ..
+   20  rm -rf .git
+   21  git status
+
