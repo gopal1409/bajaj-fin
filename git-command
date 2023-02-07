@@ -29,3 +29,8 @@
  52  touch .gitignore
    53  nano .gitignore
    54  git status
+   ###generate ssh key for auth
+   57  ssh-keygen -t rsa
+ 
+   59  cat /c/Users/gopal/.ssh/id_rsa.pub
+
