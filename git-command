@@ -44,4 +44,7 @@
    84  nano calcy.py
    85  git add calcy.py
 
-
+####do a commit and check the commit in logs
+ 89  git commit -m "added a functionality"
+   90  git log
+   git reflog
