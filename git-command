@@ -1,0 +1,7 @@
+3  mkdir project
+    4  cd project
+    5  touch DS_Store
+    6  touch calcy.py
+    7  touch secret
+    8  git status
+    9  ls
