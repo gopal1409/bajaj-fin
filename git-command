@@ -16,4 +16,12 @@
    19  cd ..
    20  rm -rf .git
    21  git status
+####add global varaible
+29  git config --global user.name "gopal"
+   30  git config --global user.email "gopal1409@gmail.com"
+####create new config
+27  git init
+   28  git add calcy.py
+   31  git commit -m "added a new project calcy"
+   32  git log
 
