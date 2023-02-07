@@ -33,4 +33,15 @@
    57  ssh-keygen -t rsa
  
    59  cat /c/Users/gopal/.ssh/id_rsa.pub
+  ####branching in git
+   77  clear
+   78  git branch
+   79  git branch add
+   80  git branch
+   81  git checkout add
+   82  git branch
+   83  cat calcy.py
+   84  nano calcy.py
+   85  git add calcy.py
+
 
