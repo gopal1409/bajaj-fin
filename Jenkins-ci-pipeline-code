@@ -1,0 +1,10 @@
+pipeline {
+    agent any 
+    stages {
+        stage('code from scm') {
+           steps {
+               echo "geeting code from scm"
+           }
+        }
+    }
+}
