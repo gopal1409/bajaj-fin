@@ -1,0 +1,9 @@
+####create the code to be uploaded in pvt repo
+ 264  cd springboot-chat-app/
+  265  rm -rf .git
+  266  git init
+  267  git add .
+  268  git commit -m "chat app"
+  269  git log
+####create a new repo in git hub and upload the code
+#########
