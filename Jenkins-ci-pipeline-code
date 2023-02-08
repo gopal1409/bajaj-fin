@@ -6,5 +6,15 @@ pipeline {
                echo "geeting code from scm"
            }
         }
+        stage('mvn build') {
+           steps {
+               echo "building code"
+           }
+        }
+         stage('mvn test') {
+           steps {
+               echo "building code"
+           }
+        }
     }
 }
